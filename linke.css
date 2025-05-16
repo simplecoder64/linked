@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #ff6ec4, #7873f5);
+    height: 580px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+  h1{
+    font-family: 'Pacifico', cursive;
+    margin-right: 50px;
+    height: 110px;
+    width: 210px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 200px;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #333;
+  }
+  
+  .btn img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  }
+  
+  .instagram {
+    background-color: #E1306C;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .whatsapp {
+    background-color: #25D366;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .tiktok {
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .gmail {
+    background-color: #D44638;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  
